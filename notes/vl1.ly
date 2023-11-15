@@ -88,3 +88,133 @@ KyrieViolinoI = {
     d1\fermata \bar "|." %82 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoGloria
+    d8\f( e16 fis g a h cis) d( e fis d)
+    a'8 r fis r d r
+    e r fis r d r
+    e4-! fis-! r
+    d4.(\p h8 g4) %5
+    \once \slurDashed d'4.( a8 fis4)
+    a4( g e)
+    d8( fis a, a' fis d)
+    cis( e a, g' e cis)
+    \once \slurDashed d( fis a, d fis a) %10
+    r gis( h gis a cis)
+    r h( e d cis e)
+    r a,( cis a h gis)
+    a(\f h16 cis d e fis gis a gis a gis)
+    a4 <a cis, e,> q %15
+    <fis a, d,>16 d([ e fis] g a h cis d cis d cis)
+    d4 <fis, a, d,> q
+    <e cis a> <a cis, e,>8 e( cis a)
+    e4(\p a cis)
+    h( d h) %20
+    h d8 h cis ais
+    fis ais16\f cis fis8 fis, ais'16( h cis ais)
+    h( d h fis) d8 gis16 a h( gis e gis)
+    a( cis a e) cis8 e a cis
+    \once \slurDashed d16( a fis e) d8( fis16 a) cis,8 e %25
+    d d' a d fis, a
+    d,(\p a) a-! a-! a-! a-!
+    r a a a a a
+    r d d d d d
+    cis4 e(\f d) %30
+    cis( h a)
+    h16( fis d fis) \once \slurDashed h8( fis' e d)
+    cis4 h8 e e e
+    e4. d'8( cis h)
+    a8 cis16( h a gis fis e d cis h a) %35
+    e'4. d'8( cis h)
+    a cis16( h a gis fis e d cis h a)
+    h4 fis'4. fis8
+    fis( e) e( d) cis4
+    d16 d d d cis cis cis cis h h h h %40
+    a8 cis(\p d dis fis e)
+    h4.( cis8 h4)
+    a8 cis( d dis fis e)
+    h4. cis8 h4
+    a8( cis) cis( fis) fis( a) %45
+    a,2 a4
+    gis8 h( dis e fis e)
+    g,2 g4
+    fis( gis a)
+    a2 gis4 %50
+    a8 a\f a a a a
+    a4. g'!8( fis e)
+    d fis16( e d cis h a g fis e d)
+    a'4. g'8( fis e)
+    d a'16( g fis e d cis h a g fis) %55
+    e8 h''16 a g( a g fis) e( fis e d)
+    cis4~ cis16 e a cis d8 fis,
+    e16( fis g e) d( e fis d) cis( d e cis)
+    d8 a'16( g fis e d cis h a g fis)
+    e8 h''16 a g( a g fis) e( fis e d) %60
+    cis4~ cis16 e a cis d8 fis,
+    e16( h' g e) d8 fis e cis
+    d4 fis h,
+    ais e' cis8( ais)
+    h( d) r d-! d( fis) %65
+    fis( h) h( d) d( h)
+    \once \slurDashed ais( cis) r cis-! cis( ais)
+    ais( g) g( e) e( cis)
+    h( fis') fis( d) d( h)
+    cis4.(\p d8 cis4) %70
+    h8( fis') fis( d) d( h)
+    \once \slurDashed cis4.( d8 cis4)
+    h r8 d,(\f g h)
+    d h g' d h' g
+    d' h g h e, d %75
+    \appoggiatura d cis4 cis8 a'( e cis)
+    d4.(\p e8 fis4)
+    a,4. g8 fis4
+    fis e8 cis16 a a'8 a
+    a(\fp cis e gis a a,) %80
+    r h(\fp d fis a h,)
+    r cis(\fp e gis a cis,)
+    d( a) fis'4 e8( cis)
+    \once \slurDashed d( a) fis'4 e8( cis)
+    d4 h r %85
+    a8(\f h16 cis d e fis gis) a8 a,
+    d d, \appoggiatura e'16 d8 cis16 d e8 d
+    cis e a e cis a'
+    cis, ais' cis ais fis e
+    d4.(\p e8 fis4) %90
+    fis8 e dis e fis d
+    cis2( h4)
+    a g!( fis)
+    e e'( d)
+    \appoggiatura d16 cis8( h cis a h cis) %95
+    d16(\f d, e fis g a h cis) d( e fis d)
+    a'8 r fis r d r
+    e4 fis d
+    e fis r
+    d4.(\p h8 g4) %100
+    d'4.( a8 fis4)
+    \once \slurDashed a( g e)
+    d8( fis a, a' fis d)
+    cis( e a, g' e cis)
+    d( fis a d e fis) %105
+    r ais,( cis ais h d)
+    cis( e d fis d h)
+    a!( cis e cis d h)
+    a a' a,[\f a a a]
+    a4. g'!8( e a) %110
+    fis16( d fis e d cis h a g fis e d)
+    a'4. \once \slurDashed g'8( e a)
+    fis e d cis16 d e8 d
+    cis e a, h16 cis d4~
+    d8 cis h cis16 d e4~ %115
+    e8 d cis d16 e fis4~
+    fis8 e d e16 fis g8 g
+    g e16 fis g( e a g) fis( d' a fis)
+    e( h g' e) d8 fis e cis
+    d d'16( cis h a g fis) e8 a %120
+    fis d'16( cis h a g fis) e8 cis
+    d4 <a fis' d'> q
+    q r r\fermata \bar "|." %123 finis
+  }
+}

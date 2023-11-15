@@ -88,3 +88,133 @@ KyrieViola = {
     a\fermata \bar "|." %82 finis
   }
 }
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoGloria
+    fis,4\f r r
+    fis' r r
+    a8 a a a a a
+    a4 a r
+    g,2.\p %5
+    a
+    e
+    fis
+    e2 g4
+    fis2. %10
+    e
+    e'
+    e
+    a,8(\f h16 cis d e fis gis a gis a gis)
+    a4 r a %15
+    \once \slurDashed d,8( e16 fis g a h cis d cis d cis)
+    d4 r d,
+    a' a r
+    e2.\p
+    eis %20
+    fis2 fis4
+    fis r8 fis\f fis fis
+    fis4. e!8 e e
+    e2 e4
+    d8. h'16 a4 g %25
+    fis r r
+    r8 d\p d d d d
+    r e e e e e
+    r e e e e e
+    e4 e\f e %30
+    e( d cis)
+    d2 e8 fis
+    e4 e r
+    h8 h' h h h h
+    cis4 cis, r %35
+    h8 h' h h h h
+    cis4 cis, r
+    fis4^\critnote h,4. h8
+    h2 a4^\critnote
+    fis'8 fis e e d d %40
+    cis4 r r
+    gis2.\p
+    a4 a r
+    gis2.
+    fis %45
+    h
+    h4 h r
+    a2.
+    a4 d e
+    e2. %50
+    e4 r r
+    e8\f e e e e e
+    fis4 fis r
+    e8 e e e e e
+    fis4 a r %55
+    h h, r
+    e8 e e e a a
+    h g fis fis e e
+    fis4 a r
+    h h, r %60
+    e8 e e e a a
+    h g fis a g e
+    fis4 r fis
+    fis r fis
+    h,2. %65
+    h4 h h
+    e2.
+    e4 e e
+    fis fis r
+    ais,2.\p %70
+    h4 h r
+    ais2.
+    h8 <h d>\f q q q q
+    q q q q q q
+    q q q q g'[ h] %75
+    a4 a r
+    a,2.\p
+    a2 a4
+    a a r
+    e'8\fp e e e e e %80
+    fis\fp fis fis fis fis fis
+    g\fp g g g g g
+    a2 a,4
+    a'2 a,4
+    d d r %85
+    e8\f e e e e e
+    gis gis gis gis gis gis
+    a a a a a a
+    fis4 fis r
+    h,2.\p %90
+    a2 d8 fis
+    e2( d4)
+    cis r r
+    a \once \slurDashed cis( d)
+    e2. %95
+    fis4\f r r
+    fis r r
+    a8 a a a a a
+    a4 a r
+    g,2.\p %100
+    fis
+    e
+    fis
+    e
+    fis %105
+    fis
+    fis2 fis'4
+    e2 gis,4
+    a a r
+    e'8\f e e e e e %110
+    fis4 fis r
+    e8 e e e e e
+    a, a h2
+    cis4 r a
+    h4. a8 g a16 h %115
+    cis4. h8 a h16 cis
+    d4. cis8 h cis16 d
+    a8 a' a a a a
+    h h fis fis g g
+    fis4 r cis %120
+    d r g8 e
+    fis4 d d
+    d r r\fermata \bar "|." %123 finis
+  }
+}

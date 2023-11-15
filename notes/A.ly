@@ -150,3 +150,251 @@ KyrieAltoLyrics = \lyricmode {
   lei --
   son. %82 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoGloria
+    \mvTr fis4.\f^\tutti fis8 fis4
+    fis2 fis4
+    a2 a4
+    a a r
+    R2.*2 %6
+    e2\p e4
+    d2 d4
+    cis2 e4
+    d4. d8 d4 %10
+    e2 e4
+    e2 e4
+    e2.
+    e4 r r
+    a\f a a %15
+    a r r
+    fis8 fis a4 fis8 fis
+    e4 r r
+    e2.\p
+    eis %20
+    fis2 fis4
+    fis r8 ais\f ais ais
+    h4 h8 gis gis gis
+    a!4 a a
+    a8. g16 fis4 g %25
+    fis r r
+    fis4.\p fis8 fis4
+    e4. e8 e4
+    gis2.
+    a4 a\f h %30
+    a( gis) a
+    fis2 cis'8 h
+    a!4 gis r
+    h4. h8 h4
+    a a r %35
+    h2 h4
+    a a r
+    a2 a4
+    gis( h) a
+    h a gis %40
+    a r r
+    gis4.\p gis8 gis4
+    a e r
+    gis2 gis4
+    fis4. fis8 fis4 %45
+    fis2 fis4
+    e e r
+    e2 e4
+    d2 e4
+    e2. %50
+    e4 r r
+    e2\f a8 a
+    fis4 fis r
+    e2 a4
+    fis fis r %55
+    g4. g8 h4
+    a2 a4
+    g8 g16 g fis4( g)
+    fis r r
+    g4. g8 h4 %60
+    a2 a4
+    g8 g16 g fis4( g)
+    fis r r
+    R2.
+    fis %65
+    fis
+    g2 g4
+    g2 g4
+    fis fis r
+    e2\p e4 %70
+    d fis r
+    e2 e4
+    d2.~\f
+    d~
+    d2 h'4 %75
+    a a r
+    a2\p a4
+    e2 d4
+    d cis r
+    a'4. a8 a4 %80
+    a4. a8 a4
+    g2 g4
+    fis( a) g
+    fis( a) g
+    fis g r %85
+    r r e\f
+    gis gis gis
+    a4. a8 a4
+    ais ais r
+    h2\p h4 %90
+    a!2 a8([ h)]
+    a2( gis4)
+    a r r
+    R2.*3 %96
+    fis4.\f fis8 fis4
+    a a a
+    a a r
+    R2.*2 %101
+    e4\p e e
+    d4. d8 d d
+    cis4 cis e
+    d4. d8 d4 %105
+    fis2 fis4
+    fis2 fis4
+    e2.
+    e4 r r
+    a\f a a %110
+    a8. a16 fis4 r8 fis
+    a4 a8 a a a
+    a a a4( gis)
+    a a a
+    g!4. a8 h4 %115
+    e,4. fis16[ g] a4
+    fis4. g16[ a] h4
+    a2 a4
+    g8 g fis4( g)
+    fis r a %120
+    a r g
+    fis fis2
+    fis4 r r\fermata \bar "|." %123 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a
+  in ex --
+  cel -- sis
+  De -- o.
+
+  Et in %7
+  ter -- ra
+  pax ho --
+  mi -- ni -- bus %10
+  bo -- nae
+  vo -- lun --
+  ta --
+  tis.
+  Lau -- da -- mus %15
+  te,
+  be -- ne -- di -- ci -- mus
+  te,
+  ad --
+  o -- %20
+  ra -- mus
+  te, glo -- ri -- fi --
+  ca -- mus, glo -- ri -- fi --
+  ca -- mus, glo --
+  ri -- fi -- ca -- mus %25
+  te.
+  Gra -- ti -- as
+  a -- gi -- mus
+  ti --
+  bi pro -- pter %30
+  ma -- gnam
+  glo -- ri -- am
+  tu -- am,
+  Do -- mi -- ne
+  De -- us, %35
+  Rex coe --
+  le -- stis,
+  De -- us
+  Pa -- ter
+  o -- mni -- po -- %40
+  tens,
+  Do -- mi -- ne
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te, %45
+  Je -- su
+  Chri -- ste,
+  Je -- su,
+  Je -- su
+  Chri -- %50
+  ste,
+  Do -- mi -- ne
+  De -- us,
+  A -- gnus
+  De -- i, %55
+  Fi -- li -- us
+  Pa -- tris,
+  Fi -- li -- us Pa --
+  tris,
+  Fi -- li -- us %60
+  Pa -- tris,
+  Fi -- li -- us Pa --
+  tris.
+
+  Qui %65
+  tol --
+  lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- %70
+  re -- re,
+  mi -- se --
+  re --
+
+  re %75
+  no -- bis,
+  mi -- se --
+  re -- re
+  no -- bis.
+  Su -- sci -- pe, %80
+  su -- sci -- pe
+  de -- pre --
+  ca -- ti --
+  o -- nem
+  no -- stram. %85
+  Qui
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris:
+  Mi -- se -- %90
+  re -- re __
+  no --
+  bis.
+
+  Quo -- ni -- am %97
+  tu so -- lus
+  san -- ctus,
+
+  tu so -- lus %102
+  Do -- mi -- nus, tu
+  so -- lus al --
+  tis -- si -- mus, %105
+  Je -- su,
+  Je -- su
+  Chri --
+  ste.
+  Cum San -- cto %110
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men,
+  a -- _ _ %115
+  _ _ _
+  _ _ men,
+  a -- men,
+  a -- men, a --
+  men, a -- %120
+  men, a --
+  men, a --
+  men. %123 finis
+}

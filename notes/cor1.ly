@@ -58,3 +58,92 @@ KyrieCornoI = {
     g\fermata \bar "|." %82 finis
   }
 }
+
+GloriaCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+    R2.
+    g''\f
+    g2 g4
+    g g r
+    R2.*3 %7
+    c,2.\p
+    d
+    c %10
+    R2.*4
+    d2.\f %15
+    c4 r r
+    e g e
+    d d r
+    R2.*3 %21
+    r8 \pa e\fE e e e4
+    e e8 d d d \pd
+    d4 d r
+    r c d %25
+    c r r
+    R2.*6 %32
+    r4 r8 \pa d\fE d d
+    d2. \pd
+    d4 d r %35
+    \pao d2.
+    d4 d r
+    R2.*2
+    r4 \pa d d \pd %40
+    d r r
+    R2.*6 %47
+    d2.\p
+    c4 \pa d d
+    d2. \pd %50
+    d8 g\f g g g g
+    g2 d4
+    c c r
+    d2.
+    c4 c r %55
+    R2.
+    d2 c4
+    r c d
+    c c r
+    R2. %60
+    d2 g4
+    r c, d
+    c r r
+    R2.
+    e %65
+    e4 e e
+    R2.*3
+    e2.\p %70
+    e4 e r
+    e2.
+    c~\f
+    c
+    c4 c c %75
+    d d r
+    R2.*6 %82
+    c2\p d4
+    c2 d4
+    c c r %85
+    d2.\f
+    \pa d4 d d \pd
+    d2 d4
+    e e r
+    R2.*7 %96
+    g2.\f
+    g4 g g
+    g g r
+    R2.*3 %102
+    c,2.\p
+    d
+    c2 r4 %105
+    R2.*4
+    d2.\f %110
+    c4 c r
+    R2.*6 %117
+    g'2 g4
+    f e d
+    c r d %120
+    c r d
+    c c c
+    c r r\fermata \bar "|." %123 finis
+  }
+}

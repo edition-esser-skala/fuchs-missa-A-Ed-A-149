@@ -4,87 +4,179 @@
 \include "score_settings/full-score.ly"
 
 \book {
+  % \bookpart {
+  %   \section "1" "Kyrie"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = \transposedName "Clarinetto" "A" ""
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             % \transpose c a,
+  %             \KyrieClarinettoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             % \transpose c a,
+  %             \KyrieClarinettoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
+  %           % \transpose c d,
+  %           \partCombine #'(0 . 10) \KyrieCornoI \KyrieCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \KyrieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \KyrieViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Viola"
+  %           \KyrieViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \incipitSoprano
+  %           \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+
+  %         \new Staff {
+  %           \incipitAlto
+  %           \new Voice = "Alto" { \dynamicUp \KyrieAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \KyrieAltoLyrics
+
+  %         \new Staff {
+  %           \incipitTenore
+  %           \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \KyrieBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \KyrieBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \KyrieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \KyrieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "1" "Kyrie"
+    \section "2" "Gloria"
     \addTocEntry
-    \paper { indent = 3\cm }
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Clarinetto" "A" ""
+            \set GrandStaff.instrumentName = \transposedNameShort "cl" "A" ""
             \new Staff {
-              \set Staff.instrumentName = "I"
+              \set Staff.instrumentName = "1"
               % \transpose c a,
-              \KyrieClarinettoI
+              \GloriaClarinettoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
+              \set Staff.instrumentName = "2"
               % \transpose c a,
-              \KyrieClarinettoII
+              \GloriaClarinettoII
             }
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d,
-            \partCombine #'(0 . 10) \KyrieCornoI \KyrieCornoII
+            \partCombine #'(0 . 10) \GloriaCornoI \GloriaCornoII
+          >>
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
           >>
         >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
+          % \transpose c d
+          \GloriaTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieViolinoI
+              \set Staff.instrumentName = "1"
+              \GloriaViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieViolinoII
+              \set Staff.instrumentName = "2"
+              \GloriaViolinoII
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
-            \KyrieViola
+            \set Staff.instrumentName = "vla"
+            \GloriaViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+          \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 
           \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \KyrieAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \GloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \KyrieAltoLyrics
+          \new Lyrics \lyricsto Alto \GloriaAltoLyrics
 
           \new Staff {
-            \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+          \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \KyrieBasso }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \GloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \KyrieBassoLyrics
+          \new Lyrics \lyricsto Basso \GloriaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \KyrieOrgano
+            \GloriaOrgano
           }
         >>
-        \new FiguredBass { \KyrieBassFigures }
+        \new FiguredBass { \GloriaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 50 }
+      \midi { \tempo 4 = 130 }
     }
   }
 }
