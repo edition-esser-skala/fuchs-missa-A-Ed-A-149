@@ -444,3 +444,294 @@ GloriaBassFigures = \figuremode {
   r2.
   r %123 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoCredo
+    \mvTr g'4\f-\tuttiE d8 h g4 r8 g'
+    fis4 g8 g, d'4 r
+    a' a r8 fis fis fis
+    g fis e fis16 g a4 a,
+    d h8 a g4 a %5
+    d d8 d e4 e8 e
+    fis4 fis8 fis g e fis g
+    a16 a, d fis a8 a, d4 fis
+    g a d, fis8 fis
+    g g a a d,4 d8 cis? %10
+    h4 e a, a'8 a
+    a, a' a a a a g! g
+    fis e d cis h h' a! a
+    g e g e fis4 fis
+    d4. d8 d4 d %15
+    d4. d8 d4 d
+    d8 c! h a g4 g'8 e
+    cis d a a' d,4 r
+    a' r a r
+    a r d, fis8 a %20
+    d d, r4 d g8 h
+    d d, r4 d fis8 a
+    d d, r d' h4 c!8 c
+    a4 h8 h gis4 a8 a
+    fis4 g8 d g4 g8 g %25
+    c,4 c8 c d4 d
+    g g8 g c,4 c8 c
+    d2 g8 e c d
+    g e c d g4 g8 g \noBreak
+    g4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      \mvTr c,4\p c' \noBreak
+    c c
+    h h
+    c c8 h
+    a4 e %35
+    a4. d,8
+    g!4 d8 d
+    g4 g8 r
+    h,4 h8 h
+    c4 c8 c %40
+    d d d d
+    g,4 r8 \clef "treble_8" cis'(
+    d) \clef bass h,[ c! d]
+    g,4 r
+    g' r %45
+    g r
+    g8 r g r
+    dis2
+    e!
+    h4 c %50
+    gis8 a h c
+    d! d d d
+    g, es' d d
+    g, cis d d
+    g4 g8 g \noBreak %55
+    g4 r\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c,4\p c c' \noBreak
+    h h2
+    a\f fis4
+    g2 g4~ %60
+    g fis g
+    a d, d
+    d8 d d d d d
+    d d d d d d
+    d d d d d d %65
+    g g g g g g
+    e e e e e e
+    cis cis cis cis d d
+    e e e e d d
+    g g a a a a %70
+    d, d d d d d
+    d d d d d d
+    cis cis' cis cis cis cis
+    c, c' c c c c
+    b b b b b b %75
+    a a a a a a
+    a a a a a a
+    a a a a a a
+    d, d d d d d
+    g g a a a, a %80
+    d4 r r
+    << {
+      r8^\vlc d g h d d
+      d4 d, s
+      r8 d g h d d
+      d4 d,
+    } \\ {
+      \mvTr d\p_\bassi r r
+      d d \oneVoice r \voiceTwo
+      d r r
+      d d
+    } >> r %85
+    h' h h
+    e, e e
+    d! d d
+    g\f h c
+    h g r %90
+    r h c
+    h g c
+    h h r
+    g\p g g
+    g g g\f %95
+    fis8 fis fis fis fis fis
+    g g g g g g
+    g g g g fis fis
+    g g a a a, a
+    d4 r r %100
+    cis cis^\critnote cis
+    d d r
+    cis cis cis
+    d d d
+    c! c c' %105
+    b b g
+    fis r fis
+    g g g
+    e2 e4
+    f2.~ %110
+    f4 \once \override Accidental.stencil = ##f f f
+    a2 b4
+    a2 b4
+    b,8 d f4 f
+    b8 b b b b b %115
+    a a a a a a
+    g g g g g g
+    es es es es es es
+    d d d d d d
+    d4 d d %120
+    d d d
+    d d d
+    d r d\p
+    g g c,
+    g'2 g4 %125
+    e2 c4
+    d d r
+    d2\f d4
+    g g r
+    d2 d4 %130
+    g8 g e e g g
+    c, c cis cis cis cis
+    d d d d d d
+    g4 r d
+    g r d %135
+    g r r\fermata \bar "|." %136 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  <8 3>4. \once \bassFigureExtendersOn q8 r2
+  <6>4 <9 4>8 <8 3> r2
+  r r8 <6>4 <5>8
+  <3> <\t> <8 3> <\tllur \tllur>16 <7 5> <_+>2
+  r4 <6>8 <6 4> <6 5>4 <_+> %5
+  r2 <6\\>
+  <6>4 <6\\> <6>8 <\t> <6\\> <6>
+  <6 4!>4 \once \bassFigureExtendersOn q8 <7 _+> r2
+  <6 5>4 \bo <[7] _+> \bc <[\t] \t>8 <8 3> <6>4
+  q <6 4>8 <[7] _+>2 <6>8 %10
+  <7 3>4 <[7] _+> <_+>2
+  <7\\ 4 2> <8 3>4 <\t \t>
+  \bo <[5\+] _+>8 \bc <[\t] \t> <6> <6\\>4. <4\+ 2>4
+  <6>2 <6 4>4 <[5\+] _+>
+  <8 [5!] 3>4 <7\\ 5>8 \bo <[7\\] 6 4> \bc <[\t] \t \t>4 <5 3> %15
+  <8 3>4 <7\\ 5>8 \bo <[7\\] 6 4> \bc <[\t] \t \t>4 <5 3>
+  r8 <\t \t> <6> <6 [_!]>4. <5>8 <3>
+  <6 5>4 <6 4>8 <[7] _+> r2
+  <[5] _+> <6 4>
+  <7 _+> <8 3>2 \bassFigureExtendersOn %20
+  q4 r <6 4>2
+  q8 r <6 4\+>4 <7! 5>2
+  q \bassFigureExtendersOff <6[!]>8. <5>16 r4
+  <6 5> <_+> <6>8. <5!>16 <_!>4
+  <6>8. <5>16 r8 <5> r2 %25
+  <5>4. <6>8 <6 4>4 <[5] 3>
+  r2 <5>4. <6>8
+  <6 4>4 <5 3>4. <5>8 <6 5> <3>
+  r <5> <6 5> <3> <8 3>2
+  r1 %30
+  r4 <5 3>8 <6 4!>
+  <4! 2>2
+  <6>
+  <5>4. <6\\>8
+  r4 <_+> %35
+  <4 2> <3>8 <[_+]>
+  r2
+  <4 2>4 <3>
+  <6>4. <7 _+>8
+  <\t \t>4 <5 3>8 <6> %40
+  <6 4>4. <[7] _+>8
+  r2
+  r8 <6> <6 5> <[7] _+>
+  <8 3>2
+  r %45
+  <6- 4>
+  <\t \t>4 <5 3>
+  <6 _+>2
+  <8 3>
+  <6\\ 5! _!>4 <6> %50
+  <7! 5>8 <5 3> <6\\> <6>
+  <6 4[!]>4. <[7] _+>8
+  r <6\\> <6! 4> <[7!] 3>
+  r <7- 5> <6! 4> <7 5>
+  <3>2 %55
+  r
+  r2.
+  <6>
+  <3>2 <6>4
+  <4 2> <3> <6> %60
+  <4\+ 2> <6> q
+  <_+>2.
+  <8 3>4 <6 4\+>2
+  <7[!] 3>2.
+  <\t \t>4 <8 3> <7> %65
+  <3>2.
+  <5>
+  <6 5>2 <3>4
+  <6\\>2.
+  <6>4 <6 4> <[7] _+> %70
+  <_+> <_!>2
+  <6 4\+ _!>2.
+  <6>
+  <6 4\+ _->
+  <6[!]> %75
+  <7 [5!] _+>
+  <6 4>
+  <5 _+>
+  r
+  <6>4 <6 4> <[7] _+> %80
+  r2.
+  <6 4>
+  <5 3>
+  <6 4>
+  <5 3> %85
+  <7 _+>
+  <_!>
+  <5>
+  r4 <[3] 6> <3 \t>
+  <3> q2 %90
+  r4 <3 6> <3 \t>
+  \bo <[6]>2.
+  \bc q
+  <7 6- 2>
+  <8 3> %95
+  <6>4. <7>8 <6> <[5]>
+  <4 2>4 <3> <6>8 <5>
+  <4\+>2 <6>4
+  q <6 4> <[7] _+>
+  r2. %100
+  <6 5>
+  r
+  q
+  r
+  <4 2> %105
+  <6>2 <_->4
+  <6>2 <5>4
+  <_->2.
+  <5- 3>4. \bassFigureExtendersOn <6 3>8 <5- 3>4 \bassFigureExtendersOff
+  <3 [1]> <4- 2> <5 3> %110
+  <6 4-> <7- 5> <8 6>
+  <6! 5->2 <[5!] 3>4
+  <6! 5->2 <[5!] 3>4
+  r <6 4[-]> <[7-] 3>
+  <5! 3>2. %115
+  <6\\ 4>
+  <_->
+  <6\\ [5-]>
+  <_+>
+  <6- 4 2> %120
+  <8 3>
+  <6- 4 [2]>
+  <[5] 3>
+  <_!>2 <5>4
+  <5 3>2. %125
+  <5>2 <6>4
+  <6 4> <5 [3]>2
+  r2.
+  r
+  r %130
+  r4 <6> <3>
+  <_-> <7- _!>2
+  <6! 4> <[7] 5>4
+  r2 <5>4
+  <3>2. %135
+  r %136 finis
+}

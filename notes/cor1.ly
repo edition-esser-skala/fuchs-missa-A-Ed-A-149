@@ -147,3 +147,112 @@ GloriaCornoI = {
     c r r\fermata \bar "|." %123 finis
   }
 }
+
+CredoCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c'2~\f c4 r
+    R1
+    \pao d2 r
+    R1*11 %14
+    r2 r8 \pa g, g g %15
+    g4 \pd r r8 \pa g g g
+    g2 g4 \pd r
+    R1
+    \pa d'2 d
+    d \pd d4 d8 d %20
+    d4 r \pa g, g8 g
+    g2 g4 g8 g
+    g4 \pd r r2
+    R1
+    r4 c8 d c r c c %25
+    c4 r c d
+    c8 r c c c4 r
+    c d \pa c8 e d4
+    c8 e d4 \pd c c8 c \noBreak
+    c4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      R2*13 %43
+    c2~\pE
+    c~ %45
+    c~
+    c
+    e~
+    e
+    R2*6 \noBreak %55
+    R2\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c8\p r c r c r \noBreak
+    c2.
+    R2.*2 %60
+    \pao d2\f r4
+    r d d
+    \pa g,2.
+    g4 g g \pd
+    r d' d %65
+    c2.
+    c4 c c
+    \pao d2 d4
+    \pao d2 d4
+    R2. %70
+    r4 d d
+    \pa g,4. g8 g g
+    d'4 d d \pd
+    R2.
+    c4 c c %75
+    r \pa d d
+    d2.
+    d \pd
+    d2 d4
+    c r \pao d %80
+    d r r
+    c2.~\p
+    c4 r r
+    c2.~
+    c4 r r %85
+    R2.*2
+    d2 d4
+    c\f c8 c c c
+    c2. %90
+    c4 c8 c c c
+    c4 c8 c c4
+    c c r
+    R2.
+    r4 r c8.\fE c16 %95
+    d4 r d
+    d c r
+    \pao d2 d4
+    r \pa d d \pd
+    d r r %100
+    \pao d r r
+    d d d
+    \pao d r r
+    d2 d4
+    d d d %105
+    \pa g,2.
+    g4 g g
+    g2 g4 \pd
+    R2.*6 %114
+    r4 \pa g g %115
+    g2.
+    g \pd
+    c
+    \pa g4 g g \pd
+    c2 c4 %120
+    \pao g2.
+    R2.*2
+    c2\p c4
+    c2. %125
+    R2.*2
+    d2\f d4
+    c c r
+    d2 d4 %130
+    c c8 c c c
+    c4 c2
+    c4 c d
+    c r d
+    c r d %135
+    c r r\fermata \bar "|." %136 finis
+  }
+}

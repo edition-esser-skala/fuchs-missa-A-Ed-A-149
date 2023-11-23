@@ -164,3 +164,120 @@ GloriaClarinettoII = {
     a4 r r\fermata \bar "|." %123 finis
   }
 }
+
+CredoClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCredo
+    h'2~\f h4 r
+    R1
+    c2 r
+    R1
+    r4 d8 d d4 cis %5
+    d r r2
+    R1*4 %10
+    r2 r4 cis8 cis
+    h2 cis
+    R1*2
+    r2 r8 h a fis' %15
+    d4 r r8 h a fis'
+    a,4 d8 fis g4 h,
+    R1
+    e2 d
+    cis d4 r %20
+    a a8 a h2
+    h c!
+    a4 r r2
+    R1
+    r4 h8 c h8. c16 d8 h %25
+    c8. d16 e8 c h4 a
+    h8. c16 d8 h c8. d16 e8 c
+    h4 a h a
+    h a h h8 h \noBreak
+    h4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      R2*13 %43
+    h2~\pE
+    h %45
+    g~
+    g
+    h
+    g
+    gis4 a %50
+    R2*5 \noBreak %55
+    R2\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      e2\p g4 \noBreak
+    g2.
+    c2\f d4
+    c h h %60
+    cis d h
+    cis d d
+    fis, gis? h
+    a2.
+    a8 g! fis4 a %65
+    g2.
+    g4 g g
+    e'2 d4
+    cis2 d4
+    e d cis %70
+    d d d
+    gis,2.
+    a
+    a2 fis!4
+    g!2. %75
+    g
+    fis2 d'4
+    e cis cis
+    d2 fis4
+    e d e %80
+    d r r
+    h2.\p
+    a4 r r
+    h2.
+    a4 r r %85
+    R2.*2
+    a2.
+    h4\f d e
+    d h r %90
+    r d e
+    d h e
+    d d r
+    R2.
+    r4 r h\fE %95
+    d r d
+    c h r
+    cis2 d4
+    e d cis
+    d r r %100
+    g, a g
+    fis fis r
+    g a g
+    fis2.
+    a %105
+    d
+    d2 c4
+    b2.
+    R2.*6 %114
+    r4 d d %115
+    d2.
+    b
+    g
+    a4 a a
+    g2. %120
+    fis
+    R2.*2
+    h2\p c4
+    h2 g4 %125
+    R2.*2
+    a2.\f
+    h2 r4
+    a2. %130
+    h4 c d
+    g, g2
+    h c4
+    h r a
+    h r a %135
+    h r r\fermata \bar "|." %136 finis
+  }
+}

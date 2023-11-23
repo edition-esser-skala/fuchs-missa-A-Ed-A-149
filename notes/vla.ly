@@ -218,3 +218,148 @@ GloriaViola = {
     d r r\fermata \bar "|." %123 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoCredo
+    h2\f d4 r8 d
+    d4 a'8 g fis4 r
+    a c, r8 d d a
+    h4 h8 h cis4 cis
+    d g,8 a h4( a) %5
+    a a8 a a4 a8 a
+    a4 h8 h h g a h
+    a2 a4 fis
+    g a a fis
+    g8 g a a a4 d8 e %10
+    fis4 e e e8 e
+    gis gis e gis a e cis cis
+    cis cis fis e d h h h
+    h4 h8 h h4 ais
+    fis' a!8 g g4 fis %15
+    fis a8 g g8. fis16 fis4
+    d d8 d d4 h8 h
+    a a' a g fis4 r
+    cis2 d
+    e4 g fis16 fis fis fis fis fis fis fis %20
+    fis fis fis fis fis fis d d d d d d d d d d
+    d d d d d d d d d d d d d d d d
+    d d d d d8 d d'4 c!
+    c h h a8 e
+    d4 d8 d d8. c16 h8 g' %25
+    e8. d16 c8 e d4 d8 d
+    d8. c16 h8 g' e8. d16 c8 e
+    d2 d8 e e d16 c
+    h8 h e d d4 d8 d \noBreak
+    d4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      c4\p c8 c \noBreak
+    a'4 a
+    d,2
+    c4 c8 e
+    e4^\critnote e4 %35
+    e4. d8
+    d4 d
+    d~ d8 r
+    d4 g8 a
+    dis,8. e16 e8 e %40
+    d4 \once \slurDashed g,16( a h c)
+    h8 r r e
+    d d e fis
+    g4 r
+    g, r %45
+    g r
+    g8 r g r
+    dis'2
+    e!
+    h4( c) %50
+    h8( c d e)
+    d4. fis,8
+    g cis d4
+    d8 g,4 fis8
+    g4 g8 g \noBreak %55
+    g4 r\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c4-!\p c-! c-! \noBreak
+    h h2
+    a4\f a' d,
+    d2 h'4 %60
+    a a g
+    g fis d
+    fis8 fis gis? gis gis! gis
+    a a a a a a
+    fis g! fis fis fis fis %65
+    g g g g g g
+    g g g g g g
+    e e e e fis fis
+    g g g g fis fis
+    g g fis fis e e %70
+    fis4 f8 f f f
+    h, h4 h d8
+    e e e e e e
+    es es4 es es8
+    d d d d d d %75
+    e!4 e e
+    fis fis fis
+    e e e
+    fis8 fis fis fis a a
+    h h, a2 %80
+    a4 r r
+    r8 d,(\p g h d) d
+    d4 d, r
+    r8 \once \slurDashed d( g h d) d
+    d4 d r %85
+    h h h
+    h h h
+    a a a
+    h\f g' g
+    g g r %90
+    r g g
+    g8 g g g g g
+    g4 d r
+    es8\p es4 es es8
+    d d4 d8 d[\f d] %95
+    d fis a a a a
+    a4 g8 g h h
+    a a a a a a
+    h h, a4 a
+    a r r %100
+    g'( a g)
+    fis fis r
+    \once \slurDashed g( a g)
+    fis fis fis
+    fis a a
+    g d d
+    d r d
+    d d d
+    c2 c4
+    c2 es4
+    d( c b)
+    c8 c c' c d d
+    c c c c d d
+    b4 f f
+    f8 f f f f f
+    fis fis a, a c c
+    b b d d b b
+    g' g4 g g8
+    a a a, a a a
+    b b4 b b8
+    a d4 d d8
+    b b4 b b8
+    a4 r a\p
+    h!2 c4
+    h2 h4
+    h2 e4
+    d d r
+    d2\f d4
+    d d r
+    d2 d4
+    d g8 g g g
+    g4 b,8 b b b
+    h h4 d8 a c
+    h4 r d
+    d r d
+    d r r\fermata \bar "|."
+  }
+}

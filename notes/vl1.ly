@@ -218,3 +218,148 @@ GloriaViolinoI = {
     q r r\fermata \bar "|." %123 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCredo
+    g'2\fE h16 g, h d g8 h
+    a d( c h) a fis16 e d8 fis16 g
+    a e c e a8 c a a'16 fis d8 c
+    h cis16 d e8 d cis( h a g)
+    fis4 g8 fis e2 %5
+    fis4 a16 a'( fis d) cis8.( d32 e) a,8 cis
+    d8.( e32 fis) dis16( h' fis dis) e8 g fis e
+    d d4 \appoggiatura fis16 e8 d4 a16 a'( g fis)
+    e8( g) cis,( e) e( d) a16 a'( g fis)
+    e( h' g e) d( fis e cis) d8 a fis' e %10
+    d h' gis h cis,4 \appoggiatura d16 cis8 h16 cis
+    d8 h h'16( gis e d) cis a cis e a a a a
+    ais( cis ais e) d( fis e fis) \slurDashed d( h' fis d) dis( h' fis dis) \slurSolid
+    e( h g' fis e d cis h) d4 cis
+    d cis8 h h4 a16 a'( fis d) %15
+    a a'( fis d) cis8 h h8. a16 a( d fis a)
+    a,( d fis a) g( d a' d,) h' g d h g8 h'16 g
+    e( a fis d) fis d cis e d8 \once \slurDashed fis16( g) a a a a
+    a,8 e'16( fis) g g g g a,8 d16( e) fis fis fis fis
+    a,8 cis16( d) e e e e d4 r %20
+    d fis8 a h g r d
+    d4 gis8 h c! a r a
+    fis16( d a d) fis8 a g8. fis16 e( g c e,)
+    fis a fis e dis fis h dis, e8. d16 c( e a c,)
+    d8. c16 h g a d h8. c16 d d h g %25
+    e'8. fis16 g e c a h( d e d) a( d e d)
+    h8. c16 d d h g e'8. fis16 g e c a
+    h4 a g8 h a4
+    g8 g'4 fis8 g8. d16 g8 h \noBreak
+    g4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      c,4\p e8 f \noBreak
+    cis16( d e d) d4
+    d f8 g
+    dis16( e f e) e8 d
+    c4 e16( d c h) %35
+    d4 c8 a
+    h4 d16( c h a)
+    c4 h16 g'( a h)
+    d,4 g8 dis
+    fis!8. e16 e8 d16( c) %40
+    h8. h16 d( c h a)
+    g8 g'( h,) e-!
+    a, d c a
+    g16 h, d g h g d h
+    r h d g h g d h %45
+    r c es g c g es c
+    r c es g r h, d g
+    r h fis dis h dis fis h
+    r h,( e g) h( g e h)
+    r d'!( h gis) r e'( c a) %50
+    \once \slurDashed d8( c h a)
+    g! g4 a16. h32
+    g8 g g fis16. a32
+    g8 e'16[ fis32 g] g,8 \appoggiatura h16 a8
+    g4 g8 g \noBreak %55
+    g4 r\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      g4\p c8 g e' c \noBreak
+    d( e16 fis g a h c) d4
+    c,~\f c16 a h c d4
+    c h e %60
+    cis16( a h cis) d4 e
+    cis8.\trill h32 cis d8 fis a d
+    \appoggiatura e,16 d8 cis16 d e8 h e d
+    \once \slurDashed c!( d16 e fis gis a h) c8 c
+    \appoggiatura d,16 c8 h16 c d8 a d c %65
+    \appoggiatura c16 h8 a16 h d8 g h4
+    \appoggiatura c,16 h8 g16 h e h g' e h'8 h
+    a,16( g' a g) e8 a fis d
+    cis a cis16( d e cis) d4
+    e16( g fis e) d( fis e d) cis e d cis %70
+    d8 d, \appoggiatura e'16 d8 cis16 d a8 d
+    f f4 d h8
+    e a16 gis a( gis a gis) a8 a
+    a c!4 a fis8
+    g! g, g'16( fis g fis) g8 g %75
+    g, e cis' g e' cis
+    d a fis' d a' fis
+    g e cis e a cis
+    d a fis a d fis,
+    e16 h g' e \once \slurDashed d4( e) %80
+    d8 a(\p fis' e d cis)
+    h2 h4
+    a8( d fis e d cis)
+    h2 h4
+    a8( d) d( fis) fis( a) %85
+    \once \slurDashed a,( fis) a( dis) dis( fis)
+    e h g h g e
+    a( d!) d( fis) fis( a)
+    g4\f d e
+    d8( e16 fis g a h c) d8 h %90
+    g4 d8 g e c
+    d g h, g' e c
+    d8. h16 g8 h( a g)
+    a\p a4 a a8
+    g g4 d8 h'[\f g] %95
+    d'16( a a' fis) d8 e d c
+    c4 h8 g' e d
+    cis16( e a e) cis8 e d fis
+    e16( g fis e) d4 cis
+    d8 fis \appoggiatura g16 fis8 e16 fis a8 fis %100
+    e a, \appoggiatura fis'16 e8 dis16 e g8 e
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis
+    e a, \appoggiatura fis'16 e8 dis16 e g8 e
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis %105
+    g d \appoggiatura a'16 g8 fis16 g b8 g
+    a c a fis d c
+    b g d g b b
+    b4. c8 b4
+    a( b c) %110
+    d( es f)
+    es16 f es d es8 c' b d
+    es,16 f es d es8 c' b d
+    f, d \once \slurDashed b4( \grace d8 c4)
+    b d d %115
+    d8 d, fis!16( a d fis) a8 fis
+    g g, b16( d g b) d8 d
+    cis cis,4 cis cis8
+    d16( fis a fis) d8 a d fis,
+    g g4 g g8 %120
+    fis fis4 fis fis8
+    e e4 e e8
+    d4 r d'\p
+    h!( g' e)
+    d2 h4 %125
+    g2 a4
+    h a r
+    fis'8\f a16( g) fis8 \once \slurDashed a16( g) fis( e d c)
+    h8( d g h) d-! d-!
+    fis, a16( g) fis8 a16( g) fis e d c %130
+    h8 g c g d' g,
+    es'4 e8 e, e'16( fis g e)
+    d8 d4 h!8 c a
+    g4 r <fis' a, d,>
+    <g h, d,> r <fis a, d,> %135
+    <g h, d,> r r\fermata \bar "|." %136 finis
+  }
+}

@@ -218,3 +218,148 @@ GloriaViolinoII = {
     q r r\fermata \bar "|." %123 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCredo
+    g'2\f h16 g, h d g8 h
+    a d( c h) a fis16 e d8 fis16 g
+    a e c e a8 c a4 a8 a
+    g4 g8 fis e4 e
+    d d8 d \once \slurDashed d4( cis) %5
+    d fis8 fis g4 g8 g
+    a4 a8 a h h a g
+    fis4. g8 fis4 a
+    h g g8 fis a4
+    h8 g fis g fis4 a8 a %10
+    a4 gis a \appoggiatura d16 cis8 h16 cis
+    d8 h \once \slurDashed h'16( gis e d) cis a cis e a a a a
+    \once \slurDashed ais( cis ais e) d( fis e fis) d( h' fis d) dis( h' fis dis)
+    e( h g' fis e d cis h) d4 cis
+    d cis8 h h4 a16 a'( fis d) %15
+    a \once \slurDashed a'( fis d) cis8 h h8. a16 a( d fis a)
+    a,( d fis a) g( d a' d,) h' g d h g8 h'16 g
+    e( a fis d) fis d cis e d8 fis16( g) a a a a
+    a,8 e'16( fis) g g g g a,8 d16( e) fis fis fis fis
+    a,8 cis16( d) e e e e d <a fis> q q q q q q %20
+    q q q q q q fis fis g h h h h h h h
+    h h h h h h h h a a a a a a a a
+    a a a a a8 a' g8. fis16 e( g c e,)
+    fis a fis e dis fis h dis, e8. d16 c( e a c,)
+    a4 g8 fis g8. a16 h8 h %25
+    c8. d16 e8 c16 a h( d e d) a8 a
+    g8. a16 h8 h c8. d16 e8 c16 a
+    g4 fis g8 g4 fis8
+    g h a a h4 h8 d \noBreak
+    h4 r r2\fermata \bar "||" %30
+    \twofourtime \time 2/4 \tempoEtIncarnatus \newSpacingSection
+      e,4\p g8 a \noBreak
+    f4 f
+    g2
+    g4 g8 gis
+    a4 c16( h a gis) %35
+    h4 a8 fis
+    g!4 h16( a g fis)
+    a4 g8 r
+    g4 g8 fis
+    a8. g16 g c h( a) %40
+    g8. g16 h( a g fis)
+    g8 r r g
+    fis g e c
+    h16 h d g h g d h
+    r h d g h g d h %45
+    r c es g c g es c
+    r c es g r h, d g
+    r h fis dis h dis fis h
+    r h,( e g) h( g e h)
+    r d'!( h gis) r e'( c a) %50
+    \once \slurDashed f8( e d c)
+    h h4 c8
+    h b h c
+    h b h c
+    h4 h8 h \noBreak %55
+    h4 r\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      e4-!\p e-! e-! \noBreak
+    d2 d4
+    e2\f a4~
+    a g h %60
+    e, a h
+    e, fis8 a fis a
+    \appoggiatura e'16 d8 cis16 d e8 h e d
+    c!( d16 e fis gis a h) c8 c
+    \appoggiatura d,16 c8 h16 c d8 a d c %65
+    \appoggiatura c16 h8 a16 h d8 g h4
+    \appoggiatura c,16 h8 g16 h e h g' e h'8 h
+    a,16( g' a g) e8 a fis d
+    cis a cis16( d e cis) d4
+    e16( g fis e) d( fis e d) cis e d cis %70
+    d8 d, \appoggiatura e'16 d8 cis16 d a8 d
+    f f4 d h8
+    e a16 gis \once \slurDashed a( gis a gis) a8 a
+    a c!4 a fis8
+    g! g, \once \slurDashed g'16( fis g fis) g8 g %75
+    g, e cis' g e' cis
+    d a fis' d a' fis
+    g e cis e a cis
+    d a fis a d fis,
+    e e, fis4( g) %80
+    fis r r
+    g2\p^\critnote g4
+    fis2.
+    g2 g4
+    fis fis r %85
+    dis fis a
+    g2 g4
+    a8( d!) d( fis) fis( a)
+    g4\f d e
+    \once \slurDashed d8( e16 fis g a h c) d8 h %90
+    g4 d8 g e c
+    d g h, g' e c
+    d8. h16 g4 r
+    c,8\p c4 c c8
+    h h4 h8 h'[\f g] %95
+    d'16( a a' fis) d8 e d a
+    a4 h8 g' e d
+    \once \slurDashed cis16( e a e) cis8 g fis a
+    g g fis4 e
+    fis8 fis' \appoggiatura g16 fis8 e16 fis a8 fis %100
+    e a, \appoggiatura fis'16 e8 dis16 e g8 e
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis
+    e a, \appoggiatura fis'16 e8 dis16 e g8 e
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis
+    d a \appoggiatura g'16 fis8 e16 fis a8 fis %105
+    g d \appoggiatura a'16 g8 fis16 g b8 g
+    a c a fis d c
+    b g d g b b
+    g2 g4
+    f( g a)
+    b( c d)
+    es16 f es d es8 c' b d
+    es,16 f es d es8 c' b d
+    d,4 d,( es)
+    d d' d %115
+    d8 d, fis!16( a d fis) a8 fis
+    g g, b16( d g b) d8 d
+    cis cis,4 cis cis8
+    \once \slurDashed d16( fis a fis) d8 a d fis,
+    e e4 e e8 %120
+    d a4 a a8
+    g g4 g g8
+    d'4 r fis\p
+    g2 g4
+    g2 d4 %125
+    e2 e4
+    g fis r
+    fis'8\f a16( g) fis8 a16( g) fis( e d c)
+    h8( d g h) \parOn d-\parenthesize-! \parOff d-\parenthesize-!
+    fis, a16( g) fis8 a16( g) fis e d c %130
+    h8 g c g d' g,
+    es'4 e8 e, e'16( fis g e)
+    d8 d4 h!8 c a
+    g4 r <fis' a, d,>
+    <g h, d,> r <fis a, d,> %135
+    <g h, d,> r r\fermata \bar "|." %136 finis
+  }
+}
