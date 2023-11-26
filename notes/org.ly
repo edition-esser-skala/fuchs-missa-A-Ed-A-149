@@ -735,3 +735,113 @@ CredoBassFigures = \figuremode {
   <3>2. %135
   r %136 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    \mvTr d4\p-\tuttiE r r2
+    d1
+    h
+    cis2\f cis\fermata
+    a'4\p r r2 %5
+    a1
+    a
+    a2 a
+    a,4.(\f ais8) ais2\fermata
+    h4 r r2 %10
+    h2 h'
+    g g
+    g8 g g g fis fis fis fis
+    h4 h e, e
+    a2 a4 a \noBreak %15
+    a2 r\fermata \bar "||"
+    \tempoPleni a2 r \noBreak
+    fis2.\f fis4
+    h h r2
+    e, e4 e %20
+    a!1
+    fis2 fis
+    h1
+    g2 g
+    a a, %25
+    d4 d d d
+    h' h h h
+    gis gis gis gis
+    a a a a
+    gis gis gis gis %30
+    a2 a4 a
+    a2 r
+    a1\p
+    a
+    a2. a4 %35
+    d,2 d4 cis'\f
+    h cis8 d e4 e,
+    a2 r4 d
+    g, a8 h cis4 cis,
+    fis2 r4 h %40
+    g e a a,
+    d2 r4 d
+    h h' h h
+    g e a a
+    d,2 r4 d %45
+    h h' h h
+    g e a a
+    d, h' g a
+    d,2 d
+    d r\fermata \bar "|." %50 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r
+  <6\\ 5! 3>
+  <6>
+  r %5
+  r
+  <6 4>
+  <7[!] 3>
+  <\t \t>4. <6 \t>8 r2
+  <5>1 %10
+  r
+  <6>2 <\t>4 <5>
+  <4 2>2 <6>
+  <7> <7 _+>
+  <3>1 %15
+  r
+  r
+  <_+>
+  r
+  <7 _+> %20
+  r
+  <6>
+  <_+>
+  <[6]>
+  r %25
+  r
+  <5>
+  <6 5>
+  <3>
+  <6 5> %30
+  r
+  r
+  r
+  <6 4>
+  <7 3> %35
+  r2. <6>4
+  <7>2 q
+  q2. q4
+  q2 q
+  q2. q4 %40
+  <6>2 <6 4>4 <[7] 3>
+  r1
+  <5>
+  <6>2 <6 4>4 <[7] 3>
+  r1 %45
+  <5>
+  <6>2 <6 4>4 <[7] 3>
+  r2 <6 5>
+  r1
+  r %50 finis
+}

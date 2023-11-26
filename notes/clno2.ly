@@ -58,3 +58,41 @@ GloriaClarinoII = {
     e r r\fermata \bar "|." %123 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoSanctus
+    R1*3
+    g'2\f g\fermata
+    R1*4 %8
+    g4. \fE e8 e2\fermata
+    R1 %10
+    c2 r
+    R1*3
+    g'4 r g g \noBreak %15
+    g2 r\fermata \bar "||"
+    \tempoPleni R1 \noBreak
+    e2\fE e4 e
+    e2 r
+    R1 %20
+    g
+    g2 g
+    R1*3 %25
+    e1
+    c4 c c c
+    R1*3 %30
+    g'2 g4 g
+    g2 r
+    R1*9 %41
+    e1\fE
+    c4 c c c
+    r2 e4 g
+    e1 %45
+    c4 c c c
+    r2 e4 g
+    e r r g
+    e2 e
+    e r\fermata \bar "|." %50 finis
+  }
+}

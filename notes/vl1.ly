@@ -363,3 +363,60 @@ CredoViolinoI = {
     <g h, d,> r r\fermata \bar "|." %136 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    d8(\p a fis' d) a'( fis d' a)
+    fis'4.( d8 a4) a
+    \once \slurDashed f'4.( d16 h gis4) gis
+    e'4.\f cis8 a2\fermata
+    cis,8(\p a e' cis) a'( e cis' a) %5
+    e'4.( cis8 a4) a
+    a'4.( fis8 d4) d
+    \appoggiatura { e16[ fis] } g!2~ g16 fis( e d) cis-! h-! a-! g-!
+    g4.(\f fis8) fis2\fermata
+    fis8( d) h'( fis) d'( h) fis'( d) %10
+    h d,( fis h) d( h fis') fis
+    e e,( g h) \once \slurDashed e( h h') h
+    cis, cis~ cis16 e( d cis) d8 fis a d
+    d, d4 d d d8
+    cis a' gis16( a h a) cis8 e, a cis \noBreak %15
+    a2 r\fermata \bar "||"
+    \tempoPleni e8(\f d cis d) e4 cis \noBreak
+    cis'( ais fis e)
+    d8( cis h cis) d4 h
+    h'( gis e d) %20
+    cis8( h a h cis d e cis)
+    d4 a a'2
+    dis,8( cis h cis dis e fis dis)
+    e( g h a g fis e d)
+    cis( d e d cis h a g) %25
+    fis( a d fis) e( d cis d)
+    fis,( h d fis) e( d cis d)
+    h'( a gis a gis fis e d)
+    cis( e fis gis a h cis a)
+    h( a gis a gis fis e d) %30
+    cis4( e) a-! cis-!
+    a2 r4 a,\p
+    e'4.( dis8 e4) cis
+    d2 a4 fis'
+    g4.( fis8 g4) e %35
+    fis2 d4 a'\f
+    a2 g~
+    g fis~
+    fis e~
+    e d %40
+    fis8( e g e) \parOn d4-\parenthesize-! \parOff cis-\parenthesize-!
+    d8( a fis a) \once \slurDashed d( fis a fis)
+    d4 d d4.\trill cis16 d
+    e8( h g' e) d4 cis
+    d8( a fis a) d( fis a fis) %45
+    d4 d d4.\trill cis16 d
+    \once \slurDashed e8( h g' e) d( fis e cis)
+    d4 d' e,4.\trill d16 e
+    d4 r <a fis' d'>2
+    q r\fermata \bar "|." %50 finis
+  }
+}

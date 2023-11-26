@@ -363,3 +363,60 @@ CredoViolinoII = {
     <g h, d,> r r\fermata \bar "|." %136 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    <a fis'>4\p r r2
+    fis'1
+    d
+    e2\f e\fermata
+    e4\p r r2 %5
+    cis1
+    d2 fis
+    e e
+    cis\f cis\fermata
+    d4 r r2 %10
+    h'8 \once \slurDashed d,( fis h) d( h fis') fis
+    e e,( g h) \once \slurDashed e( h h') h
+    cis, cis~ cis16 e( d cis) d8 fis a a,
+    a4 a8 a gis4 h
+    cis2 cis4 cis \noBreak %15
+    cis2 r\fermata \bar "||"
+    \tempoPleni e8(\f d cis d) e4 cis \noBreak
+    cis'( ais fis e)
+    d8( cis h cis) d4 h
+    h'( gis e d) %20
+    cis8( h a h cis d e cis)
+    d4 a a'2
+    dis,8( cis h cis dis e fis dis)
+    e( g h a g fis e d)
+    cis( d e d cis h a g) %25
+    fis( a d fis) e( d cis d)
+    fis,( h d fis) e( d cis d)
+    h'( a gis a gis fis e d)
+    cis( e fis gis a h cis a)
+    h( a gis a gis fis e d) %30
+    cis2 cis4 e
+    cis2 r
+    g!4.(\p fis8 g4) e
+    fis2 fis4 a
+    a2. a4 %35
+    a2 fis4 fis'8\f e
+    d1
+    cis
+    h
+    a %40
+    h4 h8( g) fis4-! e-!
+    \slurDashed fis8( a fis a) d( fis a fis) \slurSolid
+    d4 d d4.\trill cis16 d
+    e8( h g' e) d4 cis
+    d8( a fis a) d( fis a fis) %45
+    d4 d d4.\trill cis16 d
+    \once \slurDashed e8( h g' e) d( fis e cis)
+    d4 d' d,( cis)
+    d r <fis a, d,>2
+    q r\fermata \bar "|." %50 finis
+  }
+}

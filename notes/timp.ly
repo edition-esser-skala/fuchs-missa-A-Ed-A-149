@@ -50,3 +50,38 @@ GloriaTimpani = {
     c4 r r\fermata \bar "|." %123 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoSanctus
+    R1*3
+    g2\f g\fermata
+    R1*4 %8
+    R1\fermata
+    R %10
+    c2 r
+    R1*3
+    g4 r g g \noBreak %15
+    g2 r\fermata \bar "||"
+    \tempoPleni R1*4 %20
+    g4\fE r r2
+    g4 r g r
+    R1*3 %25
+    c2 r
+    c c4 c
+    R1*3 %30
+    g2 g4 g
+    g2 r
+    R1*9 %41
+    c2\fE r
+    c4 r c c
+    r2 g4 g
+    c c8 c c4 c %45
+    c2 c
+    r g4 g
+    c r r g
+    c2 c
+    c r\fermata \bar "|." %50 finis
+  }
+}
