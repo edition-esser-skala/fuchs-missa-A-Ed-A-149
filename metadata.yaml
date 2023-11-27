@@ -3,7 +3,7 @@ composer:
   first: Johann Nepomuk
 title: Missa in D major
 genre: mass
-scoring: S, A, T, B (coro), 2 cl (A/C), 2 cor (D/G/A), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (coro), 2 cl (A/C), 2 cor (D/G/A),\\2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
