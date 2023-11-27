@@ -934,11 +934,242 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %73 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1
+    \mvTr cis'4.\f^\tuttiE e8 d4 a
+    d\p c c8.([ b16)] a8 d
+    d cis16 d e8 g, g4 f
+    g( a8) b c4 f %5
+    g,(\f a8) b c d f,([ \grace a!16 g8)]
+    f4 r r2
+    e'4.\f e8 f8.([ c16)] c4
+    es\p d c b8 d
+    d es16 d c8 d c4 b %10
+    b(\f es8) g f8.([ d16)] f4
+    es8 d c g' b,4( \grace d8 c4)
+    b r r2
+    a4.\f c8 b4 d8 d
+    f f16 f es8 es d4 d %15
+    d d cis d
+    f8. f16 d8 d cis cis r cis16 cis
+    d8 d h4 a r \noBreak
+    R1\fermata \bar "||"
+    \key d \major \time 3/4 \tempoDona \newSpacingSection
+      a4(\p g) fis \noBreak %20
+    d'( cis) h
+    a4.( g8) fis4
+    fis e r
+    g2.
+    fis4 r r %25
+    h2.
+    a4 r r
+    g2 g4
+    fis( gis) a
+    a( cis h) %30
+    a r r
+    a( cis h)
+    a r r
+    a2\f a4
+    h2 h4 %35
+    h( e d)
+    cis r r
+    h2 h4
+    cis( e) cis
+    h2. %40
+    cis4 a a
+    ais2 ais4
+    h2 h4
+    cis2.
+    d4 d d %45
+    d2 d4
+    d2.
+    h4 d d
+    d( e) cis
+    h2 a4 %50
+    d( e) cis
+    h2 a4
+    fis'2 fis4
+    f2.
+    e4 e d %55
+    cis2 h4
+    e4. e8 d d
+    cis2( h4)
+    a r r
+    R2.*2 %61
+    r4 cis dis
+    e( h) cis
+    d!( cis h)
+    a r r %65
+    R2.
+    r4 d2
+    cis4 c2
+    h4 dis e
+    fis( g) e %70
+    dis2 e4
+    fis g r
+    e fis r
+    e fis r
+    e2 e4 %75
+    d2.
+    cis4 r r
+    r cis( d)
+    cis r r
+    r cis( d) %80
+    cis a\p a
+    h h2
+    a4 a2
+    g4 g2
+    fis4(\f a) d %85
+    d2 d4
+    d d r
+    cis2.
+    d4 fis d
+    cis2 cis4 %90
+    d( fis) d
+    cis2.
+    d4 d d
+    dis2 dis4
+    e2 e4 %95
+    fis2.
+    e4 h h
+    h( g') e
+    h2 h4
+    h( g') e %100
+    a,2 a4
+    cis2 d4
+    a4. a8 a a
+    cis2 d4
+    h2. %105
+    b4 b b
+    a4.( d8) h([ e)]
+    d2 cis4
+    d4. d8 h e
+    d2( cis4) %110
+    d r r
+    cis2.
+    d4 r r
+    cis2.
+    d4 d2 %115
+    d4 r r\fermata \bar "|." %116 finis
+  }
+}
 
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, %2
+  a -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re no --
+  bis.
+  A -- gnus De -- i,
+  a -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di: %10
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re no --
+  bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di: %15
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re no -- bis, mi -- se --
+  re -- re no -- bis.
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  Do -- na %20
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem %25
+  do --
+  na,
+  do -- na
+  no -- bis
+  pa -- %30
+  cem,
+  pa --
+  cem,
+  do -- na
+  no -- bis %35
+  pa --
+  cem,
+  do -- na
+  no -- bis
+  pa -- %40
+  cem, do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, do -- na %45
+  no -- bis
+  pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, %50
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa --
+  cem, do -- na %55
+  no -- bis,
+  do -- na no -- bis
+  pa --
+  cem.
+
+  Do -- na %62
+  no -- bis
+  pa --
+  cem, %65
+
+  do --
+  na pa --
+  cem, do -- na
+  no -- bis %70
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- cem, %75
+  pa --
+  cem,
+  pa --
+  cem,
+  pa -- %80
+  cem, do -- na
+  no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis, %85
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, do -- na
+  no -- bis %90
+  pa -- cem,
+  pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, %95
+  pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem,
+  pa -- cem, %100
+  do -- na
+  no -- bis,
+  do -- na no -- bis
+  pa -- cem,
+  do -- %105
+  na, do -- na
+  no -- bis
+  pa -- cem,
+  do -- na no -- bis
+  pa -- %110
+  cem,
+  pa --
+  cem,
+  pa --
+  cem, pa -- %115
+  cem. %116 finis
+}

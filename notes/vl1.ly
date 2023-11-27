@@ -501,3 +501,127 @@ BenedictusViolinoI = {
     <e cis' a'> r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoAgnus
+    r16 d(\p f e) d( f a d) r e,( g f) e( g b e)
+    r cis(\f d e) a,( cis e a) f( d' a f) \once \slurDashed d( a a' f)
+    d4\p c c8. b16 a8 d
+    d cis16 d e8 g, g4 f
+    g a8 b c4 f8 a %5
+    g,4\f a8 b c d f, \appoggiatura a!16 g8
+    f16 f(\p a g) f( a c f) r g,( b a) g( b d g)
+    r e(\f f g) c,( e g c) r a( f c) a( f' c a)
+    f(\p a c es) d( f b d,) c( es c a) b( f b d)
+    d( a es' d) c( a d c) c( a d c) b( d b g) %10
+    \once \slurDashed g(\f b g es) g( b es g) \once \slurDashed f( b, b' b) a( b f d)
+    es( f d b) \once \slurDashed c( g g' es) d( f d b) a( c es c)
+    b b(\p d c) b( d f b) r c,( es d) c( es g c)
+    r a(\f b c) a( f es c) d( b' d c) b( f d b)
+    r c'( es d) c( a f f) r f( d' c) b( f d d) %15
+    d( a) fis-! fis-! d'( b) g-! g-! g'( e!) cis-! cis-! a'( f) d-! d-!
+    \slurDashed f( d) \parOn h-\parenthesize-! h-! f'( d) h-! \parOff h-\parenthesize-! cis a'8 e cis a'16
+    f( d) \parOn h-\parenthesize-! h-! f'( d) \slurSolid h-! \parOff h-\parenthesize-! a8[ r16 a] a8 a \noBreak
+    a1\fermata \bar "||"
+    \key d \major \time 3/4 \tempoDona \newSpacingSection
+      a4(\p g fis) \noBreak %20
+    d'( cis h)
+    a4.( g8 fis4)
+    fis e r
+    g2.
+    fis8 \once \slurDashed d'( cis d e d) %25
+    h2.
+    a8 d( cis d e fis)
+    g,2 g4
+    fis( gis a)
+    a( cis h) %30
+    a8 cis dis e gis a
+    a,4( cis h)
+    a8 a\f cis a cis e
+    a cis16 h a( gis a gis fis e d cis)
+    h8 h' r h h h %35
+    h d16 cis h( a gis a) h( gis e d)
+    cis8 e a e cis' a
+    \appoggiatura a32 gis16( fis gis a) h8 gis e d
+    cis e a e cis' a
+    \appoggiatura a32 gis16( fis gis a) h8 gis e d %40
+    cis8 e a4 a
+    ais8 ais, r ais' ais16( h cis ais)
+    h8 h, r h' \once \slurDashed h16( cis d h)
+    cis8 cis, r cis' \once \slurDashed cis16( d e cis)
+    d8 h fis h d, fis %45
+    d2.
+    d'8 h fis h d, fis
+    d2.
+    e,16( fis gis a! h cis d e) cis4
+    gis16( a h cis d e fis gis) a4 %50
+    e,16( fis gis a h cis d e) cis8 e
+    gis,16( a h cis d e fis gis) a8 a
+    fis16 fis fis fis fis fis fis fis fis fis fis fis
+    f f f f f f f f f f f f
+    e4( a) \once \slurDashed fis8( d) %55
+    cis2 h4
+    cis8( e gis a) fis( d)
+    cis2 h4
+    a8 cis h a dis fis
+    e gis, a h cis e %60
+    fis, d' cis4 h
+    a8 cis h a dis fis
+    e gis, a h cis e
+    fis, d' cis4 h
+    a r r %65
+    R2.
+    r4 d2
+    cis4 c2
+    h8 h dis h e h
+    fis' h g e h e %70
+    dis h fis' dis e h
+    fis' h g e h e
+    g a fis d! a fis'
+    g a fis d a fis'
+    e16 e e e e e e e e e e e %75
+    d d d d d d d d d d d d
+    cis4 <a e' cis'> <a fis' d'>
+    <a e' cis'>8 a'[ a a a a]
+    a4 <a, e' cis'> <a fis' d'>
+    <a e' cis'>8 a'[ a a a a] %80
+    a a, a'[\p a a a]
+    a([ h)] g h, e e
+    \once \slurDashed g([ a)] fis a, fis' fis
+    fis([ g)] e g, e' e
+    d\f d, fis' d fis a %85
+    d, d'16 cis d( cis d cis h a g fis)
+    e8 e, r e' e e
+    e16( d cis d) e( d e fis) g( h a g)
+    fis( a h a) d8 a fis d
+    cis16( h a h) cis( d e fis) g( h a g) %90
+    fis( a h a) d8 a fis d
+    cis16( h a h) cis( d e fis) g( h a g)
+    fis8 a16( fis) d8 d d d
+    dis dis, r dis' dis16( e fis dis)
+    e8 e, r e' \once \slurDashed e16( fis g e) %95
+    fis8 fis, r fis' \once \slurDashed fis16( g a fis)
+    e8 h h e g h
+    g2.
+    g8 h, h e g h
+    g2. %100
+    a,16( h cis d! e fis g a) fis4
+    cis16( d e fis g a h cis)
+    d4 a,16( h cis d e fis g a) fis8 fis
+    cis16( d e fis g a h cis) d8 d
+    h16 h h h h h h h h h h h %105
+    b b b b b b b b b b b b
+    \slurDashed a4( d) h8( g) \slurSolid
+    fis2 e4
+    fis8( a cis d) \once \slurDashed h( g)
+    fis2 e4 %110
+    d8 d,16 cis d( e fis g a h cis d)
+    cis( h a h cis d e fis) \once \slurDashed g( e a g)
+    fis8 d,16 cis d( e fis g a h cis d)
+    cis( h a h cis d e fis) \once \slurDashed g( e a g)
+    fis4 <a, fis' d'> q %115
+    q r r\fermata \bar "|." %116 finis
+  }
+}

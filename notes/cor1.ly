@@ -376,3 +376,85 @@ BenedictusCornoI = {
     c r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1
+    d'2\f c
+    R1*13 %15
+    c2\fE g'4 g
+    r2 d
+    r d \noBreak
+    d1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*6 %25
+    c2.\p
+    c4 r r
+    R2.*5 %32
+    r4 d\f d
+    d2.
+    e %35
+    \pa d2 d4 \pd
+    d2 d4
+    \pa d2 d4
+    d2.
+    d \pd %40
+    d4 d d
+    e2 e8. e16
+    e2 e8. e16
+    e2 e8. e16
+    e2. %45
+    e4 e e
+    e2.
+    e4 e e
+    R2.
+    \pao d2 d4 %50
+    \pa d d \pd d
+    \pao d2 d4
+    c2.
+    c4 c c
+    d2 e4 %55
+    \pa d2 d4 \pd
+    d d e
+    d2 \pao d4
+    d r r
+    R2.*13 %72
+    d4 c r
+    d c r
+    R2.*2 %76
+    r8 g' g g g g
+    g4 d e
+    d8 g g g g g
+    g4 d e %80
+    d r r
+    R2.*3
+    g2.\f %85
+    g
+    d
+    d4 d d
+    c c r
+    d2 d4 %90
+    c c c
+    d2.
+    c4 c c
+    R2.*7 %100
+    g'2 g4
+    g2 g4
+    g2 g4
+    g2 g4
+    c,2. %105
+    R
+    g'2 f4
+    e2 d4
+    g2 f4
+    e2 d4 %110
+    c r r
+    d2.
+    c4 r r
+    d2.
+    c4 c c %115
+    c r r\fermata \bar "|." %116 finis
+  }
+}

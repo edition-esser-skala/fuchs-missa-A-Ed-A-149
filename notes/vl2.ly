@@ -501,3 +501,127 @@ BenedictusViolinoII = {
     q r\fermata \bar "|." %74 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoAgnus
+    r16 d(\p f e) d( f a d) r \once \slurDashed e,( g f) e( g b e)
+    r cis(\f d e) a,( cis e a) \once \slurDashed f( d' a f) d( a a' f)
+    a,2\p a8. g16 f!8 f
+    g4 g8 e e4 d
+    e16( c e c) f( c g' c,) a'( c, a' c,) a'( c, f c) %5
+    \slurDashed e(\f c e c) f( c g' c,) \slurSolid f8 as, a b
+    a16 f'(\p a g) f( a c f) r g,( b a) g( b d g)
+    r e(\f f g) c,( e g c) r a( f c) a( f' c a)
+    f(\p a c es) d( f b d,) c( es c a) b( f b d)
+    d( a es' d) c( a d c) c( a d c) b( d b g) %10
+    g(\f b g es) g( b es g) \once \slurDashed f( b, b' b) a( b f d)
+    es( f d b) c( g g' es) d( f d b) a( c es c)
+    b b(\p d c) b( d f b) r c,( es d) c( es g c)
+    r \once \slurDashed a(\f b c) a( f es c) d( b' d c) b( f d b)
+    r c'( es d) c( a f f) r f( d' c) \once \slurDashed b( f d d) %15
+    d( a) fis-! fis-! d'( b) g-! g-! g'( e!) cis-! cis-! a'( f) d-! d-!
+    \slurDashed f( d) \parOn h-\parenthesize-! h-! f'( d) h-! \parOff h-\parenthesize-! cis a'8 e cis a'16
+    f( d) \parOn h-\parenthesize-! h-! f'( d) \slurSolid h-! \parOff h-\parenthesize-! a8[ r16 cis,] cis8 cis \noBreak
+    cis1\fermata \bar "||"
+    \key d \major \time 3/4 \tempoDona \newSpacingSection
+      fis4(\p e d) \noBreak %20
+    \once \stemUp h'( a g)
+    fis4.( e8 d4)
+    d cis r
+    e2.
+    d4 r r %25
+    g2.
+    fis4 r r
+    e2 e4
+    d2 cis4
+    cis( e d) %30
+    cis r r
+    cis( e d)
+    cis8 a'\f cis a cis e
+    a cis16 h a( gis a gis fis e d cis)
+    h8 h' r h h h %35
+    h d16 cis h( a gis a) \once \slurDashed h( gis e d)
+    cis8 e a e cis' a
+    \appoggiatura a32 \once \slurDashed gis16( fis gis a) h8 gis e d
+    cis e a e cis' a
+    \appoggiatura a32 gis16( fis gis a) h8 gis e d %40
+    cis8 e a4 a
+    ais8 ais, r ais' ais16( h cis ais)
+    h8 h, r h' h16( cis d h)
+    cis8 cis, r cis' \once \slurDashed cis16( d e cis)
+    d8 h fis h d, d %45
+    h2.
+    d'8 h fis h d, d
+    h2.
+    \once \slurDashed e,16( fis gis a! h cis d e) cis4
+    gis16( a h cis d e fis gis) a4 %50
+    e,16( fis gis a h cis d e) cis8 e
+    gis,16( a h cis d e fis gis) a8 a
+    a,16 a a a a a a a a a a a
+    gis gis gis gis gis gis gis gis gis gis gis gis
+    a a a a a a a a \once \slurDashed d8( h) %55
+    a2 gis4
+    a16-\critnote a a a a a a a \once \slurDashed d8( h)
+    a2 gis4
+    a r a
+    gis r a8 cis, %60
+    d h' a4 gis
+    a8 cis h a dis fis
+    e gis, a h cis e
+    d, h' a4 gis
+    a a2 %65
+    gis4 g2
+    fis4 a( h)
+    e, g a
+    d,8 h' dis h e h
+    fis' h g e h e %70
+    dis h fis' dis e h
+    fis' h g e h e
+    g a fis d! a fis'
+    g a fis d a fis'
+    h,16 h h h h h h h h h h h %75
+    h h h h h h h h h h h h
+    a4 <a e'> <a fis'>
+    <a e'>8 a[ a a a a]
+    a4 <a e'> <a fis'>
+    <a e'>8 a[ a a a a] %80
+    cis,4 cis\p cis
+    dis( e) g
+    cis,( d) d
+    h( cis) cis
+    d8\f d' fis d fis a %85
+    d, d'16 cis d( cis d cis h a g fis)
+    e8 e, r e' e e
+    e16( d cis d) e( d e fis) g( h a g)
+    \slurDashed fis( a h a) d8 a fis d
+    cis16( h a h) cis( d e fis) g( h a g) %90
+    fis( a h a) d8 a fis d \slurSolid
+    cis16( h a h) cis( d e fis) g( h a g)
+    fis8 \once \slurDashed a16( fis) d8 d d d
+    dis dis, r dis' dis16( e fis dis)
+    e8 e, r e' \once \slurDashed e16( fis g e) %95
+    fis8 fis, r fis' \once \slurDashed fis16( g a fis)
+    e8 h h e g h
+    e,2.
+    g8 h, h e g h
+    e,2. %100
+    a,16( h cis d! e fis g a) fis4
+    cis16( d e fis g a h cis)
+    d4 a,16( h cis d e fis g a) fis8 fis
+    cis16( d e fis g a h cis) d8 d
+    d,16 d d d d d d d d d d d %105
+    cis cis cis cis cis cis cis cis cis cis cis cis
+    d d d d d d d d \once \slurDashed d8( e)
+    d2 cis4
+    d16 d d d d d d d \once \slurDashed h8( e)
+    d2 cis4 %110
+    d8 d,16 cis d( e fis g a h cis d)
+    cis( h a h cis d e fis) \once \slurDashed g( e a g)
+    fis8 d,16 cis d( e fis g a h cis d)
+    cis( h a h cis d e fis) \once \slurDashed g( e a g)
+    fis4 <fis a, d,> q %115
+    q r r\fermata \bar "|." %116 finis
+  }
+}

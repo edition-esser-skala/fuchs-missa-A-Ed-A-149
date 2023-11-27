@@ -86,10 +86,62 @@ SanctusTimpani = {
   }
 }
 
-BenedictusTimpani = {
+AgnusTimpani = {
   \relative c {
     \clef bass
-    \twofourtime \key c \major \time 2/4 \tempoBenedictus
-    
+    \key c \major \time 4/4 \tempoAgnus
+    R1
+    g4\f r8 g16 g c4 c
+    R1*13 %15
+    c2\trill\fE g8 g16 g g8 g16 g
+    g2\trill g4 g
+    g2\trill g4 g \noBreak
+    g1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*14 %33
+    g4\f r r
+    R2.*2 %36
+    g4 g r
+    R2.*15 %52
+    c4 r c8 c
+    c4 c c
+    g r r %55
+    R2.
+    g4 r r
+    R2.*15 %72
+    g4 c r
+    g c r
+    R2.*3 %77
+    r4 g c
+    g r r
+    r g c %80
+    g r r
+    R2.*3
+    c4\fE c r %85
+    c c r
+    R2.
+    g4 r g
+    c c r
+    g r g8 g %90
+    c4 c r
+    g g g8 g
+    c4 c r
+    R2.*7 %100
+    g4 g8 g c4
+    R2.
+    g4 g8 g c4
+    R2.
+    c4 r r %105
+    R2.
+    c4 r r
+    g g8 g g4
+    c c r
+    r g8 g g4 %110
+    c r r
+    g r g8 g
+    c4 r r
+    g g8 g g4
+    c r c %115
+    c r r\fermata \bar "|." %116 finis
   }
 }

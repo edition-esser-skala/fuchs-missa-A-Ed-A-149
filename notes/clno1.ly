@@ -97,10 +97,76 @@ SanctusClarinoI = {
   }
 }
 
-BenedictusClarinoI = {
+AgnusClarinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoBenedictus
-    
+    \key c \major \time 4/4 \tempoAgnus
+    R1
+    d'4.\f d8 c4 c
+    R1*13 %15
+    c2\fE g8 g16 g g8 g16 g
+    g2 g4 g
+    g2 g4 g \noBreak
+    g1\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*14 %33
+    d'2.\f
+    e2 e4 %35
+    R2.
+    d2 d4
+    R2.*4 %41
+    e4 r8 e e e
+    e4 r8 e e e
+    e4 r8 e e e
+    e2. %45
+    e4 e e
+    e2.
+    e4 e e
+    R2.
+    \pao d2 d4 %50
+    R2.
+    \pao d2 d4
+    c2.
+    c4 c c
+    d2 c4 %55
+    R2.
+    d4 d c
+    r \pa d d \pd
+    d r r
+    R2.*13 %72
+    d4 c r
+    d c r
+    R2.*2 %76
+    r8 g g g g g
+    g2.
+    g8 g g g g g
+    g2. %80
+    R2.*4
+    c2.\fE %85
+    c
+    c4 c r
+    d2 d4
+    c c r
+    d2 d4 %90
+    c c r
+    d2 d4
+    c c r
+    R2.*7 %100
+    d2 c4
+    \pa g g8 g g4 \pd
+    d'2 c4
+    \pa g g8 g g4 \pd
+    c2. %105
+    R
+    c2 r4
+    c2 d4
+    c c r
+    r c d %110
+    c r r
+    d2 d4
+    c r r
+    d2.
+    c4 c c %115
+    c r r\fermata \bar "|." %116 finis
   }
 }
