@@ -6,6 +6,10 @@
 \include "ees_articulate.ly"
 
 
+hA = \once \override Accidental.stencil = ##f
+mezzovoce = \markup \remark "mezzo voce"
+
+
 tempoKyrie = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
 tempoCredo = \tempoMarkup "Allegro moderato"
@@ -13,6 +17,7 @@ tempoCredo = \tempoMarkup "Allegro moderato"
   tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Allegretto"
 
 
 \include "notes/cl1.ly"

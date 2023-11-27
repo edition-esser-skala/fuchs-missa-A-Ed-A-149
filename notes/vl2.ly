@@ -420,3 +420,84 @@ SanctusViolinoII = {
     q r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBenedictus
+    cis16(-\mezzovoce e cis e) cis( e cis e)
+    \slurDashed cis( e cis e) h( e a, e') \slurSolid
+    gis,( e' h e) gis,( e' h e)
+    h( e d e) cis( e h e)
+    cis( e a e) d( a' fis a) %5
+    cis,( a' e a) d,( a' fis a)
+    cis,( a' e a) cis,( a' e a)
+    \slurDashed fis( a d, fis) cis( e d e) \slurSolid
+    cis4 r
+    h( cis) %10
+    e8 e r4
+    e cis8. a16
+    gis'8 r a r
+    h r h r
+    a dis16 cis h( a gis fis) %15
+    e4 dis8 r
+    fis\f r dis dis
+    e8. fis16 gis8 r
+    fis r dis dis
+    e gis a fis %20
+    gis gis a fis
+    gis h a a'
+    gis, gis' fis, fis'
+    e,16 e e e gis gis gis gis
+    a8 gis16 fis e8 fis %25
+    e16 e e e gis gis gis gis
+    a a a a gis gis fis fis
+    gis4 r
+    c,16(\p e c e) d( e d e)
+    c( e c e) h( e h e) %30
+    c( e c e) d( e d e)
+    \slurDashed c( e c e) h( e h e)
+    c(\f a' e a) c,( a' e a)
+    d,( a' f a) d,( a' f a)
+    e( g? e c) d( \hA g f \hA g) \slurSolid %35
+    e( g c\p \hA g) e( \hA g \hA c \hA g)
+    \slurDashed e( g e c) d( \hA g \hA c, \hA g')
+    h,( g' d \hA g) h,( \hA g' d \hA g)
+    h,( g' d \hA g) e( c h d)
+    c( g' e \hA g) \hA c,( \hA g' e \hA g) %40
+    h,( e d e) c( a' e a)
+    h,( e d e) c( a' e a) \slurSolid
+    dis8\f dis4 dis8
+    e16 h h h h h h h
+    dis8 dis4 dis8 %45
+    e r \parOn gis,\p-\parenthesize-! \parOff a-\parenthesize-!
+    h4 gis8~ gis16. h32
+    h8 a \parOn gis-\parenthesize-! \parOff a-\parenthesize-!
+    h4 gis8~ gis16. h32
+    h8 a16 e \slurDashed e( a e cis) %50
+    h( e d e) h( e d e)
+    cis( a' e a) cis,( a' e a)
+    fis4 h16( d cis h) \slurSolid
+    r a a a r gis gis gis
+    a8 a'16.\f gis32 fis8 h16. gis32 %55
+    e8 a16. gis32 fis8 h16. gis32
+    e8 a,4 a8
+    a4( gis)
+    a8 a4 a8
+    a16 cis'32( h a[ gis fis e]) dis( e fis e e[ d cis h)] %60
+    a8 r r cis
+    d4 h8 h
+    cis cis4 cis8
+    d d h h
+    cis32_[( h a gis] a h cis d) e8 r %65
+    d32( a h cis d[ e fis g)] a16 a a a
+    gis8 h,~ h16 a a a
+    h8. h16 e8. e16
+    e( d cis h) a8 gis
+    cis4~ cis16 h d h %70
+    a8 a16. a32 gis8 gis16. gis32
+    a8 <e h' gis'>[ <e cis' a'> <e h' gis'>]
+    <e cis' a'>4 q
+    q r\fermata \bar "|." %74 finis
+  }
+}

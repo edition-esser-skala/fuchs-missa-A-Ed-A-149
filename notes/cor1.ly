@@ -306,3 +306,73 @@ SanctusCornoI = {
     c r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    R2
+    g'4-\mezzovoce g8 g
+    g4 r
+    g g8 g
+    g r c r %5
+    c r c r
+    c r c r
+    r4 g8 g
+    g4 r
+    g2 %10
+    g8 g r4
+    g2~
+    g4 r
+    R2*3 %16
+    d'8\f r d r
+    d4 d8 r
+    \pao d r \pao d r
+    R2*4 %23
+    \pa g,4 g \pd
+    r \pa d'8 d \pd %25
+    d4 \pao g,
+    r \pa d'8 d \pd
+    d4 r
+    g,2~\p
+    g~ %30
+    g~
+    g~
+    g4 r
+    R2*7 %40
+    g2~\p
+    g
+    c\f
+    \pao g
+    c %45
+    \pao g8 r r4
+    r \pa g\p
+    g8 c \pd r4
+    R2
+    r8 c c r %50
+    r d d r
+    r c c r
+    R2
+    c4 d
+    c8 r r4 %55
+    R2
+    r8 c4\f c8
+    \pa g2
+    g8 \pd c4 c8
+    c4 d %60
+    c8 r r c
+    \pa g4 g8 g
+    g \pd c4 c8
+    \pa g4 g8 g \pd
+    c2 %65
+    c4 c8 c
+    R2
+    d4 c
+    r c8 d
+    c4 r %70
+    c d
+    c8 d c d
+    c4 c
+    c r\fermata \bar "|." %74 finis
+  }
+}

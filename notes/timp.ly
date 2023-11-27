@@ -85,3 +85,11 @@ SanctusTimpani = {
     c r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    
+  }
+}

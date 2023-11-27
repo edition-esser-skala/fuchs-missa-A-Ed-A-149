@@ -96,3 +96,11 @@ SanctusClarinoI = {
     c r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusClarinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    
+  }
+}

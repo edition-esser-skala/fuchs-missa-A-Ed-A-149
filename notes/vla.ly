@@ -420,3 +420,84 @@ SanctusViola = {
     a r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoBenedictus
+    a4-\mezzovoce r
+    a r
+    e r
+    e r
+    a8 r a r %5
+    a r a r
+    a r a r
+    fis'4 e8 gis,
+    a4 r
+    e' e %10
+    gis8 gis r4
+    e cis
+    h8 r h r
+    h r h r
+    cis4. cis8 %15
+    h4~ h8 r
+    h\f r h h
+    h8. a16 gis8 r
+    h r h h
+    e,2 %20
+    e
+    e8 e'4^\critnote fis8
+    dis e cis h
+    h16 h h h cis cis cis cis
+    cis4 h8 h %25
+    h16 h h h cis cis cis cis
+    cis cis cis cis h h h h
+    h4 r
+    a(\p h)
+    a( gis8) gis %30
+    a4( h)
+    \once \slurDashed a( gis8) gis
+    a\f r a r
+    a r a r
+    g r \hA g r %35
+    g4 r
+    g\p g8 g
+    g r \hA g r
+    g r \hA g r
+    g r \hA g r %40
+    gis4 a8 a
+    gis4 a8 a
+    a'\f a4 a8
+    h16 gis gis gis gis gis gis gis
+    a8 a4 a8 %45
+    h r e,\p e
+    fis4 e
+    e8 e e e
+    fis4 e
+    e8 r e r %50
+    e r e r
+    e r e r
+    fis4~ fis16 d e fis
+    r e e e r d d d
+    cis8 cis\f d h %55
+    cis cis d h
+    cis c4 c8
+    cis4 h8 d
+    cis c4 c8
+    cis8. a16 gis8 h %60
+    cis r r e
+    e4 e8 e
+    e e4 e8
+    e4 e8 e
+    e16 e e e cis cis cis cis %65
+    a' a a a d, d d d
+    d'4. d8
+    d8. h16 a8. a16
+    a8. fis16 e8 e
+    e4 fis %70
+    e8 e d d
+    cis e16 e e e e e
+    e4 e
+    e r\fermata \bar "|." %74 finis
+  }
+}

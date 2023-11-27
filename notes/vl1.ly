@@ -420,3 +420,84 @@ SanctusViolinoI = {
     q r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBenedictus
+    cis'8.(-\mezzovoce d32 e) a,8 a
+    a e r e'
+    gis8.( a32 h) e,8 e
+    e e, r e'
+    e cis r \slashedGrace h'8 a32( gis a fis) %5
+    e8. cis16 a8 \slashedGrace h'8 a32( gis a fis)
+    e8. cis16 a8 h16 cis
+    e( d cis h) a8 \appoggiatura cis16 h8
+    a[ r16 e'] dis( e fis e)
+    gis,4( a) %10
+    \appoggiatura cis16 h8 h16 e dis( e fis e)
+    gis,8. h16 a8. cis16
+    h( h' gis e) h( a' fis dis)
+    e( h e fis) gis( e h e)
+    dis( cis fis e) dis( cis h a) %15
+    gis4 fis8 fis'16.[\f gis32]
+    a8 dis,16. e32 fis8 h,16. a32
+    gis8. a16 h8 fis'32([ a gis h)]
+    a8-! dis,32([ fis e gis)] fis16( dis h a)
+    gis8 e'16. dis32 cis8 fis16. dis32 %20
+    h8 e16. dis32 cis8 fis16. dis32
+    h8 e16. dis32 cis8 dis16. cis32
+    his8 cis16. h32 a8 h16. a32
+    gis16 gis gis gis e' e e e
+    fis, cis' h a gis8 a %25
+    gis16 gis gis gis e' e e e
+    e e fis fis e e dis dis
+    e8 e\p e e
+    e4 gis,
+    a8.( h32 c) d16( h e d) %30
+    c8 e4 gis,8
+    a8.( h32 c) d16( h e d)
+    c8[\f r16 c] \appoggiatura d32 c16( h32 c e16 c)
+    d8 a16 a' g( f e d)
+    c4 h8. d16 %35
+    c8 e~\p e16 \once \slurDashed f( g e)
+    c8 g r16 g' g g
+    g8 h~ h16 c( d h)
+    g8 g, r16 \hA g' g g
+    g8 \slashedGrace d'8 c32( h \hA c d) \hA c16( e,) e e %40
+    e8. d16 c c' gis( a)
+    e8. d16 c8 e
+    a\f \slashedGrace h8 a32( gis a h) a16 a a a
+    gis( h e h) gis( h gis e)
+    a8 \slashedGrace h8 a32( gis a h) a16 a a a %45
+    gis e, gis a h8-!\p cis!-!
+    d8.( e32 fis) h,8 e16. d32
+    d8 cis h-! cis-!
+    d8.( e32 fis) h,8 e16. d32
+    d8 cis16 e a( cis a e) %50
+    d8 h16 d gis( h gis d)
+    e8 cis16( e) a( e) e( cis)
+    \once \slurDashed h( ais h cis) d( fis e d)
+    r cis cis cis r h h h
+    a8 r r d16.\f e32 %55
+    cis8 cis r d16. e32
+    cis8 fis~ fis16 fis fis([ gis32 a)]
+    e8 cis16. a32 e'8 d16. h32
+    cis8 fis~ fis16 fis \once \slurDashed fis([ gis32 a])
+    e32( a cis h a[ gis fis e)] dis([ e fis e] e d cis h) %60
+    a8 \slashedGrace h'8 a32( gis a h) cis16( a e a)
+    \slashedGrace a8 gis32([ fis gis a)] \slashedGrace cis8 h32([ a h cis)] d16( h gis d)
+    cis[ a'] \appoggiatura h32 a16 gis32 a cis16( a e a)
+    \slashedGrace a8 gis32([ fis gis a)] \slashedGrace cis8 h32([^\critnote a h cis)] d([ cis h a)] gis([ fis e d)]
+    cis(_[ h a gis] a h cis d) e8 r %65
+    d32([ a h cis] d e fis g) a16 a a a
+    gis4~ gis16 a a a
+    gis8. gis16 a8. a16
+    gis( fis e d) cis8 h
+    e4~ e16 d fis d %70
+    cis8 cis16. cis32 h8 h16. h32
+    a8 <e h' gis'>[ <e cis' a'> <e h' gis'>]
+    <e cis' a'>4 <a e' cis'>
+    <e cis' a'> r\fermata \bar "|." %74 finis
+  }
+}

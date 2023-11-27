@@ -306,3 +306,73 @@ SanctusCornoII = {
     e r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    R2
+    g'4-\mezzovoce g8 g
+    g4 r
+    g g8 g
+    g r c, r %5
+    c r c r
+    c r c r
+    r4 g'8 g
+    g4 r
+    g2 %10
+    g8 g r4
+    g2~
+    g4 r
+    R2*3 %16
+    d'8\f r d r
+    d4 g,8 r
+    d'8 r d r
+    R2*4 %23
+    g,4 g
+    r d'8 d %25
+    g,4 g
+    r d'8 d
+    g,4 r
+    g2~\p
+    g~ %30
+    g~
+    g~
+    g4 r
+    R2*7 %40
+    g2~\p
+    g
+    c,\f
+    g'
+    c, %45
+    g'8 r r4
+    r g\p
+    g8 e r4
+    R2
+    r8 e e r %50
+    r g g r
+    r e e r
+    R2
+    e4 g
+    e8 r r4 %55
+    R2
+    r8 c4\f c8
+    g'2
+    g8 c,4 c8
+    e4 g %60
+    e8 r r e
+    g4 g8 g
+    g e4 e8
+    g4 g8 g
+    c,2 %65
+    c4 c8 c
+    R2
+    g'4 e
+    r e8 g
+    e4 r %70
+    e g
+    e8 g e g
+    e4 e
+    e r\fermata \bar "|." %74 finis
+  }
+}

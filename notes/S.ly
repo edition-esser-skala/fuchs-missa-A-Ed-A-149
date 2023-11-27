@@ -780,18 +780,161 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %49 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \autoBeamOff \tempoBenedictus
+    R2^\tuttiE
+    a'4(^\mezzovoce h8) cis
+    d h r4
+    h( cis8) d
+    e cis r4 %5
+    r r8 fis
+    e8.([ cis16)] a8 h16([ cis)]
+    e([ d)] cis h a8 \appoggiatura cis16 h8
+    a4 r
+    gis a %10
+    \appoggiatura cis16 h8 h r4
+    gis8.([ h16)] a8.([ cis16)]
+    h8.([ e16)] dis8 fis
+    e8.([ fis16)] gis8 e
+    dis16([ cis fis e)] dis([ cis)] h([ a)] %15
+    gis8. gis16 fis8 r
+    r4 r8 h16.\f a32
+    gis8.([ a16)] h8 r
+    r4 r8 h16([ a)]
+    gis8[( e'16. dis32] cis8[ fis16. dis32]) %20
+    h8 e16.([ dis32)] cis8([ fis16. dis32)]
+    h8 e16.([ dis32)] cis8[ dis16. cis32]
+    his8[ cis16. h32] a8 h16.([ a32)]
+    gis8 gis e'4
+    fis,16([ cis')] h([ a)] gis8 a %25
+    gis gis \once \tieDashed e'4~
+    e16[ cis] cis fis e8 dis
+    e4 r
+    R2*2 %30
+    e4\p gis,
+    a8.([ h32 c)] h8 h
+    c4\f c8 c
+    d8.([ a16] g'[ f)] e d
+    c4( h8.) d16 %35
+    c4 r
+    c(\p d8) e
+    d h r4
+    d( e8) f
+    e c r e %40
+    e8.([ d16)] c8 e
+    e8. d16 c8 e
+    dis\f dis16 dis dis8. dis16
+    e4 r8 e
+    dis dis16 dis dis8. dis16 %45
+    e4 r
+    R2
+    r4 h8\p cis!
+    d8.([ e32 fis)] h,8 e16.([ d32)]
+    d8 cis r cis16 cis %50
+    d8 h r d
+    e cis r cis
+    h16([ ais h cis] d[ fis)] e d
+    cis4 h
+    a r8 d16.\f e32 %55
+    cis8 cis r d16.([ e32)]
+    cis8 c4 fis8
+    e cis16. cis32 h8. cis16
+    cis8 r r fis
+    e cis!16. cis32 h8. h16 %60
+    a4 r
+    r r8 e'16.([ d32)]
+    cis8 cis r a
+    gis8. gis16 h8 e
+    cis cis r cis16 cis %65
+    d8 d r4
+    r r8 d
+    h h r4
+    r r8 h
+    e8. e16 e([ d)] fis([ d)] %70
+    cis4( h)
+    cis8 h16 h cis8([ h)]
+    cis4 r
+    R2\fermata \bar "|." %74 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- %2
+  di -- ctus,
+  be -- ne --
+  di -- ctus, %5
+  qui
+  ve -- nit in __
+  no -- mi -- ne Do -- mi --
+  ni.
+  Be -- ne -- %10
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne __ %15
+  Do -- mi -- ni.
+  Be -- ne --
+  di -- ctus,
+  qui
+  ve -- %20
+  nit, qui __ ve --
+  nit in __ no --
+  _ _ mi --
+  ne, in no --
+  mi -- ne __ Do -- mi -- %25
+  ni, in no --
+  mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %31
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi -- %35
+  ni.
+  Be -- ne --
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui %40
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne Do -- mi --
+  ni, in
+  no -- mi -- ne Do -- mi -- %45
+  ni.
+
+  Be -- ne --
+  di -- ctus, qui __
+  ve -- nit, be -- ne -- %50
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi --
+  ni. Be -- ne -- %55
+  di -- ctus, qui __
+  ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni, in
+  no -- mi -- ne Do -- mi -- %60
+  ni.
+  O --
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, in ex -- %65
+  cel -- sis,
+  o --
+  san -- na,
+  o --
+  san -- na in __ ex -- %70
+  cel --
+  sis, in ex -- cel --
+  sis. %73 finis
+}
 
 
-
-
-
-% ## Benedictus
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

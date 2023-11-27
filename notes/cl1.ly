@@ -332,3 +332,76 @@ SanctusClarinettoI = {
     a r\fermata \bar "|." %50 finis
   }
 }
+
+BenedictusClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBenedictus
+    R2
+    c'4-\mezzovoce d8 e
+    f d r4
+    d e8 f
+    g r a r %5
+    g r g a
+    g4 e8 r
+    R2*2
+    h'4( c) %10
+    h8 g r4
+    d e
+    d fis
+    g8. a16 h8 r
+    R2*2 %16
+    a8\f r a r
+    g8. a16 h8 r
+    a r a r
+    g r r c %20
+    h r r c
+    h r r4
+    R2
+    h,4 g'
+    a, h8 c %25
+    h4 g'
+    g8 a g fis
+    g4 r
+    g2~\p
+    g~ %30
+    g~
+    g~
+    g4 r
+    R2*7 %40
+    g2~\p
+    g
+    fis\f
+    g
+    fis %45
+    g8 r d\p e
+    f!4 d
+    d8 e d e
+    f4 d
+    d8 e e r %50
+    r f d r
+    r e e r
+    R2
+    e4 f
+    e8 r r h'\f %55
+    c r r h
+    c a4 a8
+    g e f4
+    e8 a4 a8
+    g4 h %60
+    c8 r r g
+    g4 g8 g
+    g g4 g8
+    g4 g8 g
+    g2 %65
+    c
+    \once \tieDashed h4~ h16 c c8
+    h4 c
+    r e,8 d
+    g4~ g16 f a f %70
+    e4 f
+    e8 f e f
+    e4 e
+    e r\fermata \bar "|." %74 finis
+  }
+}
